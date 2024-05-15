@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/stylelogin.css">
+</head>
+
+<body>
+
+    <!-- Contenedor principal del formulario de inicio de sesión -->
+    <div class="login-box">
+        <!-- Formulario de inicio de sesión -->
+        <form action="#">
+            <!-- Checkbox para mostrar o ocultar el texto del título -->
+            <input type="checkbox" class="input-check" id="input-check">
+            
+            <!-- Título del formulario -->
+            <h2>Iniciar sesión</h2>
+            
+            <!-- Campo de entrada para el correo electrónico -->
+            <div class="input-box">
+                <span class="icon">
+                    <!-- Ícono de correo electrónico -->
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+                <div class="input-line"></div>
+            </div>
+            
+            <!-- Campo de entrada para la contraseña -->
+            <div class="input-box">
+                <span class="icon">
+                    <!-- Ícono de candado -->
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Contraseña</label>
+                <div class="input-line"></div>
+            </div>
+            
+            <!-- Opciones de recordar contraseña y enlace para recuperarla -->
+            <div class="remember-forgot">
+                <label><input type="checkbox">Recordar</label>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+            
+            <!-- Botón de inicio de sesión -->
+            <button type="submit">Iniciar sesión</button>
+            
+            <!-- Enlace para registrarse -->
+            <div class="register-link">
+                <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+            </div>
+            
+            <!-- Enlace para volver a la página de inicio -->
+            <div class="home-link">
+                <p>Volver a <a href="home.html">Inicio</a></p>
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- Iconos de Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
